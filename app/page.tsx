@@ -2,6 +2,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function WelcomePage() {
+  console.log("[v0] WelcomePage rendering");
   return (
     <div className={styles.pageShell}>
       <div className={styles.authLayout}>
