@@ -1,0 +1,22 @@
+[project]
+name = "flowtrace"
+version = "0.1.0"
+description = "FlowTrace - Transaction Fraud Detection System"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart",
+    "sqlalchemy",
+    "passlib[bcrypt]",
+    "python-jose",
+    "pandas",
+    "numpy",
+    "networkx",
+    "scikit-learn",
+    "matplotlib",
+    "plotly",
+    "pyvis",
+    "email-validator",
+]
