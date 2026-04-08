@@ -1,0 +1,11 @@
+[project]
+name = "flowlens-backend"
+version = "0.1.0"
+description = "FlowLens - Fraud Detection System Backend"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart",
+]
