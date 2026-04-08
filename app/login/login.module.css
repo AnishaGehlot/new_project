@@ -1,0 +1,106 @@
+.inputGroup {
+  margin-bottom: 14px;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #5f6b84;
+  font-weight: 600;
+}
+
+.inputWrap {
+  position: relative;
+}
+
+.textInput {
+  width: 100%;
+  height: 52px;
+  border-radius: 15px;
+  border: 1px solid #dfe5f1;
+  outline: none;
+  padding: 0 16px;
+  font-size: 15px;
+  color: #1b2238;
+  background: #fbfcff;
+  transition: all 0.2s ease;
+}
+
+.textInput:focus {
+  border-color: #7b97fb;
+  box-shadow: 0 0 0 4px rgba(111, 143, 247, 0.14);
+  background: #fff;
+}
+
+.eyeBtn {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #8a95ad;
+  font-size: 18px;
+}
+
+.helperRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 4px 0 16px;
+  flex-wrap: wrap;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #68758f;
+  cursor: pointer;
+}
+
+.remember input {
+  accent-color: #6989f5;
+}
+
+.linkText {
+  color: #5f82f4;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.primaryBtn {
+  width: 100%;
+  height: 54px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #5d7ef1 0%, #7898fd 100%);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 24px rgba(100, 128, 243, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.02);
+  box-shadow: 0 14px 28px rgba(100, 128, 243, 0.34);
+}
+
+.bottomNote {
+  margin-top: 18px;
+  text-align: center;
+  color: #7b869c;
+  font-size: 13px;
+}
+
+.bottomNote a {
+  color: #5f82f4;
+  font-weight: 700;
+}
