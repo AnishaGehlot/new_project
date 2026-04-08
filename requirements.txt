@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+jinja2
+python-multipart
+sqlalchemy
+passlib[bcrypt]
+python-jose
+pandas
+numpy
+networkx
+scikit-learn
+matplotlib
+plotly
+pyvis
+email-validator

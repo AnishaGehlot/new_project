@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FLOWLENS | Forgot Password</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="auth-layout">
+      <section class="hero-panel">
+        <div class="hero-top">
+          <div class="brand-badge">
+            <span class="brand-dot"></span>
+            FLOWLENS
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <p class="hero-eyebrow">Recovery</p>
+          <h1 class="hero-title">Forgot your password?</h1>
+          <p class="hero-subtitle">
+            Enter your registered email and we’ll send a real OTP code for password recovery.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-panel">
+        <div class="form-card">
+          <div class="form-header">
+            <h2 class="form-title">Forgot Password</h2>
+            <p class="form-subtitle">
+              Enter your registered email address.
+            </p>
+          </div>
+
+          {% if error %}
+          <div class="error-box">{{ error }}</div>
+          {% endif %}
+
+          <form method="post" action="/forgot">
+            <div class="input-group">
+              <label class="input-label">Email Address</label>
+              <div class="input-wrap">
+                <input class="text-input" type="email" name="email" placeholder="Enter your email" required />
+              </div>
+            </div>
+
+            <button class="primary-btn" type="submit">Send OTP</button>
+          </form>
+
+          <div class="bottom-note">
+            Back to
+            <a href="/login">Login</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
